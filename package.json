@@ -1,0 +1,27 @@
+{
+  "name": "playwright-qa-portfolio",
+  "version": "1.0.0",
+  "description": "Автотесты на Playwright (JavaScript) для saucedemo.com: логин и корзина, Page Object Model, CI на GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "report": "npx playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RIINI1/playwright-qa-portfolio.git"
+  },
+  "keywords": ["playwright", "qa", "automation", "e2e", "testing"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/RIINI1/playwright-qa-portfolio/issues"
+  },
+  "homepage": "https://github.com/RIINI1/playwright-qa-portfolio#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.5.1"
+  }
+}
